@@ -1,4 +1,4 @@
-# Linux-essentials
+# Kali-Linux-essentials
 
 ## Tmux.conf
 First install 
@@ -24,3 +24,9 @@ Once in the session, type [Ctrl] + [B] and then hit [Shift] + [I] (or prefix + [
 
 ##### TIPS
 Once the plugin is installed, start logging the current session (or pane) by typing [Ctrl] + [B] followed by [Shift] + [P] (prefix + [Shift] + [P]) to begin logging. If all went as planned, the bottom of the window will show that logging is enabled and the output file. To stop logging, repeat the prefix + [Shift] + [P] key combo or type exit to kill the session. Note that the log file will only be populated once you either stop logging or exit the Tmux session.
+
+## .Zshrc
+First do a backup for original .zshrc file that you have right now.
+```
+cp ~/.zshrc ~/.zshrc.bak
+```
